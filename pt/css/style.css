@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    font-family: roboto,Verdana,sans-serif;
+    letter-spacing: 1px;
+}
+body {
+    min-height: 100vh;
+}
+html, body, nav {
+    background-color: #1e1e27;
+}
+
+nav {
+    text-align: right;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    padding: 30px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.menu a:hover {
+    color: white;
+    transition: color 0.5s;
+}
+
+.active {
+    background-color: #2256FF;
+}
+.active a {
+    color: white !important;
+}
+
+.container {
+    justify-content: center;
+    min-height: calc(100vh - 81px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.container div {
+    flex-basis: 50%;
+}
+
+.bio {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.bio section {
+    margin: auto;
+    display: block;
+    font-family: poppins;
+}
+.profile {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.profile img {
+    width: 320px;
+    height: 320px;
+    border-radius: 100%;
+    box-shadow: 0px 15px 75px -28px #2256ff;
+}
+
+.t-blue {
+    color: #2256FF;
+    font-weight: bold;
+}
+
+.b-blue {
+    background-color: #2256FF;
+}
+
+.bio h1 {
+    font-size: 6rem;
+    line-height: 7rem;
+}
+
+.bio h3 { 
+    font-weight: 100;
+    font-size: 28px;
+}
+
+.bio h5 {
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.socials {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+.socials a:hover i {
+    transition: color 0.2s;
+    color: #2256FF;
+}
+
+.actions {
+    margin-top: 40px;
+}
+
+.actions button {
+    outline: none;
+    margin-right: 18px;
+    border: none;
+    min-width: 165px;
+    padding: 15px 17px;
+    border-radius: 50px;
+    background-color: #2256FF;
+    color: white;
+}
+
+.actions button:nth-child(2) {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 801px) {
+    nav {
+        text-align: center;
+    }
+}
