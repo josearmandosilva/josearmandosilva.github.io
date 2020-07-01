@@ -16,13 +16,12 @@ nav {
     text-align: right;
 }
 
-.menu li {
+.menu li, .menu a {
     display: inline-block;
 }
 
 .menu a {
     padding: 30px;
-    display: inline-block;
     text-transform: uppercase;
 }
 .menu a:hover {
@@ -86,13 +85,15 @@ nav {
     line-height: 7rem;
 }
 
-.bio h3 { 
+.bio h3, .bio h5 {
     font-weight: 100;
+}
+
+.bio h3 {
     font-size: 28px;
 }
 
 .bio h5 {
-    font-weight: 100;
     font-size: 1rem;
 }
 
