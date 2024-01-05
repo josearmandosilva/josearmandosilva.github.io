@@ -5,15 +5,19 @@ import { FaBars } from "react-icons/fa";
 
 const links = [
     {
-        text: "Inicio",
+        text: "Home",
         to: "/"
     },
     {
-        text: "Projetos",
+        text: "Experience",
+        to: "/experience",
+    },
+    {
+        text: "Projects",
         to: "/projects",
     },
     {
-        text: "Contactos",
+        text: "Contacts",
         to: "/contacts",
     }
 ];
