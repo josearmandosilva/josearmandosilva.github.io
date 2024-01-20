@@ -8,6 +8,7 @@
     "gatsby"
   ],
   "scripts": {
+    "deploy" : "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -24,6 +25,7 @@
     "gatsby-plugin-sitemap": "^6.11.0",
     "gatsby-source-filesystem": "^5.11.0",
     "gatsby-transformer-sharp": "^5.11.0",
+    "gh-pages": "^6.1.1",
     "i18next": "^23.2.11",
     "lottie-react": "^2.4.0",
     "postcss": "^8.4.26",
