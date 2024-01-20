@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_portfolio=self.webpackChunkmy_portfolio||[]).push([[685],{2616:function(e,t,l){l.r(t);var r=l(7294);t.default=()=>r.createElement(r.Fragment,null,"Mrpizza!!")}}]);
+//# sourceMappingURL=component---src-pages-projects-mrpizza-js-fe8b2dbc5a0cc2109a39.js.map
