@@ -1,8 +1,8 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+//pathPrefix: "/",
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
     title: `Portfólio`,
     siteUrl: `https://josearmandosilva.github.io`
