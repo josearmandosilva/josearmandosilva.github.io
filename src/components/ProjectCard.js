@@ -5,7 +5,7 @@ import RoundedSmallButton from "./RoundedSmallButton";
 function ProjectCard({ project }) {
     return <div key={project.slug} className="p-12 rounded-md mb-3  hover:bg-black/30">
             <figure className="grid gap-4 grid-cols-8 relative">
-                {project.background_url? <img className="col-span-2 rounded-md" src={project.background_url}></img>:
+                {project.background_url? <img className="col-span-2 rounded-md" src={project.background_url.replace("/josearmandosilva.github.io", "")}></img>:
                 <div className="col-span-2"></div>}
                 <figcaption className="col-span-6">
                     <a className="text-xl inline-flex items-baseline font-medium leading-tight text-slate-200 hover:text-[#2256FF] focus-visible:text-[#2256FF] group/link" href="/projects">
